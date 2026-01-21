@@ -20,20 +20,30 @@ Example:
 # Getting your files to your repo (After you have created something).
 
 ### 1. Check what has changed.
-`git status`
+```
+git status
+```
 
 ### 2. Add the file to staging. 
 ### (Add one file)
-`git add filename.txt`
+```
+git add filename.txt
+```
 
 ### (Add every file you created or you changed)
-`git add .`
+```
+git add .
+```
 
 ### 3. Commit the change.
-`git commit -m "Add initial file / update content"`
+```
+git commit -m "Add initial file / update content"
+```
 
 ### 4. Push the file(s) to GitHub.
-`git push`
+```
+git push
+```
 
 *Note:* If it's your first time pushing this repo, you may get an error telling you there is no upstream branch. To resolve this use the following command.
 `git push -u origin main` (or `master` if that's your branch name)
